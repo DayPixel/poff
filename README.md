@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://daypixel.kr/poff/en/">Website</a> ·
-  <a href="https://github.com/DayPixel/puff/releases">Download</a> ·
+  <a href="../../releases/latest">Download</a> ·
   <a href="../../issues">Report a bug</a> ·
   <a href="../../discussions">Ideas &amp; feedback</a>
 </p>
@@ -48,6 +48,8 @@ Poff shares your **name, task, look, status** (typing / thinking / break / away)
 
 - Your screen, window titles and window contents are never read or sent.
 - The automatic "Coding" / "Designing" status comes from the *kind* of app in front, not what's inside it. App names are added only if you turn that on.
+- By default you join the public **Plaza**, where other Poff users can see your ghost, name, task and status. Messages are sent only to your friend room, never to the Plaza.
+- You can delete your account and data from the app menu. See the [privacy policy](https://daypixel.kr/poff/en/privacy.html).
 - Presence and messages go over Supabase Realtime and are not stored as chat history. The server keeps rooms (code and name) and which rooms a device has joined.
 
 ## Requirements
@@ -59,7 +61,7 @@ Poff is a free public beta. The app is available in English and Korean.
 
 ## Download
 
-Get the latest version from **[Releases](https://github.com/DayPixel/puff/releases)** or the **[website](https://daypixel.kr/poff/en/)**. The Mac app checks for updates with Sparkle and installs them when you choose.
+**[Download the latest version](../../releases/latest)**: `Poff-<version>.dmg` for Mac. Windows test builds are in the same release. You can also download from the **[website](https://daypixel.kr/poff/en/)**. The Mac app checks for updates with Sparkle and installs them when you choose.
 
 ## Open source: PerchKit
 
