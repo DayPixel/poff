@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideas and feedback
+    url: https://github.com/DayPixel/poff/discussions
+    about: Share ideas, ask questions, or tell us how you use Poff.

@@ -1,0 +1,26 @@
+name: Bug report
+description: Something in Poff isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      placeholder: "1. Open …\n2. Shake the window …"
+  - type: input
+    id: version
+    attributes:
+      label: Poff version
+      placeholder: "0.2.6"
+  - type: input
+    id: system
+    attributes:
+      label: macOS or Windows version
+      placeholder: "macOS 15.1, M2"
